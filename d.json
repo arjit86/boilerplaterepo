@@ -1,0 +1,18 @@
+"cswitch":{
+    "prefix":"switch case boilerplate",
+    "body":[
+        "include <stdio.h>",
+        "int main()",
+        "{",
+        "int i;",
+        "printf("enter any value");",
+        "scanf("%d",a);",
+        "switch (i)",
+        "case c1:",
+        "your code;",
+        "//you can increasse per ur desire",
+        "return 0;",
+        "}",
+    
+    ]
+}
