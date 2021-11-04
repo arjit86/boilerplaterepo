@@ -1,0 +1,52 @@
+// Author : TheLinuxGuy001
+{
+
+"cmain":{
+	"prefix": "boilerplate for C main body",
+	"body": [
+		"#include <stdio.h>",
+		"int main()",
+		"{",
+		"	$1",
+		"	return 0;",
+		"}"
+	],
+	"description": "C main Body"
+}
+
+"cfor": {
+	"prefix": "boilerplate for C for loop",
+	"body": [
+		"#include <stdio.h>",
+		"int main()",
+		"{",
+		"for ( $1)",
+		"	{",
+		"		/* Statement here */",
+		"	}",
+		"	return 0;",
+		"}"
+	],
+	"description": "C for loop"
+}
+
+"cnestedfor": {
+	"prefix": "boiler plate for nedted for loop",
+	"body": [
+		"#include <stdio.h>",
+		"int main()",
+		"{",
+		"for ( $1)",
+		"	{",
+		"		/* Statement here */",
+		"		for ( )",
+		"		{",
+		"			/* Statement Here */",
+		"		}",
+		"	}",
+		"	return 0;",
+		"}"
+
+
+}
+
